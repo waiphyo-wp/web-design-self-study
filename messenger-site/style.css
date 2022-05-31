@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+.menuItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.msgIconContainer {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.msgIcon {
+    width: 100%;
+}
+
+.menuListContainer {
+    padding: 20px;
+}
+
+.menuList {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 25px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 17px;
+}
+
+.menuList:hover {
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 3px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.leftContainer {
+    width: 45%;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.rightContainer {   
+    width: 50%;
+    /* background-color: yellow; */
+    display: inline-block;
+    /* margin-left: 110px; */
+}
+
+.leftContainerWord {
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    background-image:linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.userInput {
+    margin-top: 70px;
+}
+
+.textbox, .password {
+    display: block;
+    margin-top: 10px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    width: 320px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 8px 16px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #0a7cff;
+    border-radius: 24px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+}
+
+.forgetLink {
+    padding-left: 20px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 15px;
+}
+
+.checkBox {
+    margin-top: 30px;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.checkboxText {
+    padding-left: 10px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 15px;
+    color: #595959;
+}
+
+.rightMsgImg {
+    width: 105%;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 200px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 15px;
+}
+
+.footerCopy {
+    font-weight: bold;
+}
+
+.menuIconPng {
+    width: 30px;
+    height: 30px;
+}
+
+.menuIconPng {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .menuListContainer {
+        display: none;
+    }
+    .menuIconPng {
+        display: flex;
+    }
+}
+
+.menuItem {
+    position: sticky;
+    top: 0px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #F5F5F5;
+    opacity: 0.98;
+}
+

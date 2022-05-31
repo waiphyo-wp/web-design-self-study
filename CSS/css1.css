@@ -1,0 +1,13 @@
+h1{
+	font-size: 20px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	text-indent: 40px;
+
+	}
+p{
+	font-style: normal;
+	font-family: serif;
+	word-spacing: 30px;
+	white-space: nowrap;
+}

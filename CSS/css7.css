@@ -1,0 +1,98 @@
+/*p{
+	border: 1px solid black;
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}*/
+/*.bgbox{
+	border: 2px solid cyan;
+	background-color: black;
+	width: 1500px;
+	height: 1500px;
+}
+div {
+	border: 1px solid black;
+	margin-top: 50px;
+}
+.a{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	top: 100px;
+	z-index: 20;
+	opacity: 0.5;
+}
+.b{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+}
+.c{
+	width: 200px;
+	height: 100px;	
+	background-color: blue;
+}
+.d{
+	width: 200px;
+	height: 100px;	
+	background-color: yellow;
+
+}
+.e{
+	width: 200px;
+	height: 100px;	
+	background-color: cyan;
+}
+.f{
+	width: 200px;
+	height: 100px;	
+	background-color: navy;
+}
+.g{
+	width: 200px;
+	height: 100px;	
+	background-color: violet;
+}*/
+/*ul{
+	list-style-type: none;
+	margin-left: 300px;
+
+}
+li{
+	margin: 10px;
+	border: 2px solid gold;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	background-color: red;
+	color: gold;
+	font-size: 20px;
+	font-family: monospace;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px navy;
+}
+
+body {
+/*	background-image: url(lib.jpg);
+	background-repeat: no-repeat;*/
+/*	background-color: navy;*/
+/*}
+h1 {
+	text-align: center;
+	color: gold;
+	text-shadow: 10px 12px 6px navy;
+	opacity: 0.5;
+}*/
+
+img {
+	border: 2px solid cyan;
+	width: 250px;
+	margin-left: 10px;
+}
+img:hover{
+	width: 230px;
+	box-shadow: 10px 10px 5px gray;
+}

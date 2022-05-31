@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../WEB DESIGN SELF STUDY"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/Documents/BootStrap"
+		},
+		{
+			"path": "../../Documents/my-design"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "messenger-site"
+	}
+}

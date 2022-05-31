@@ -1,0 +1,78 @@
+/*div{
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 10px;
+}
+.box1{
+	padding-left: 200px;
+}
+.box2{
+	box-sizing: border-box;
+	padding-left: 200px;
+}*/
+
+/*div{
+
+	position: absolute;
+}
+
+.box1{
+
+	width: 10px;
+	border: 50px solid black;
+	border-color: transparent green;
+}
+.box2{
+	width: 10px;
+	border: 50px solid black;
+	border-color: red transparent;
+}*/
+/*.click1,.click3{
+	width: 80px;
+	height: 40px;
+	background-color: rgb(207, 255, 181);
+	color: white;
+	border: 0.5px solid cyan;
+	border-radius: 20px;
+	margin: 10px;
+	font-family: monospace;
+	box-shadow: 5px 10px 20px cyan;
+}
+.click2{
+	width: 80px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	border: 1px sold cyan;
+	border-radius: 10px;
+	display: block;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}*/
+.aa{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(255, 0, 0);
+	border: 1px solid cyan;
+	border-radius: 20px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	color: gold;
+}
+
+#bb:target{
+	display: block;
+}
+#bb{
+	width: 500px;
+	height: 300px;
+	border: 1px solid red;
+	display: none;
+}
+#pp:target{
+	display: none;
+}

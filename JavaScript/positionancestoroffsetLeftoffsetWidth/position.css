@@ -1,0 +1,23 @@
+.level1 {
+    width: 1000px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.level2 {
+    width: 800px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.item {
+    background-color: brown;
+}

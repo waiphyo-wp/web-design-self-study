@@ -1,0 +1,12 @@
+/* .divStyle {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+} */
+
+.image {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-top: 20px;
+}

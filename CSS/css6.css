@@ -1,0 +1,108 @@
+/**{
+	padding: 0;
+	margin: 0;
+}
+.aa{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	border: 1px solid red;
+	background-color: blue;
+	width: 500px;
+	height: 20px;
+
+}
+.aa{
+	display: block;
+}
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+	display: block;
+
+}
+li{
+	background-color: ;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+a{
+	text-decoration: none;
+	color: pink;
+	font-size: 100px;
+}
+li:hover{
+	background-color: yellow;
+}
+.sub:hover>#sub{
+	display: block;
+}
+.sub:hover>#sub li{
+	display: block;
+}
+#sub{
+	display: none;
+	position: absolute;
+}
+#sub1,#sub2,#sub3,#sub4{
+	display: none;
+	position: absolute;
+}
+
+.sub1:hover>#sub1{
+	display: inline-block;
+}
+.sub1:hover>#sub1 ul{
+	display: inline-block;
+	margin: 25px 100px;
+
+}
+.sub2:hover>#sub2{
+	display: inline-block;
+}
+.sub2:hover>#sub2 ul{
+	display: inline-block;
+	margin: 25px 100px;
+
+}
+.sub3:hover>#sub3{
+	display: inline-block;
+}
+.sub3:hover>#sub3 ul{
+	display: inline-block;
+	margin: 25px 100px;
+
+}
+.sub4:hover>#sub4{
+	display: inline-block;
+}
+.sub4:hover>#sub4 ul{
+	display: inline-block;
+	margin: 25px 100px;
+
+}
+
+div.box{
+width: 600px;
+height: 600px;
+background: linear-gradient(45deg, cyan, green);
+border-radius: 600px;
+cursor: move;
+}
+
+@font-face {
+font-family: roboto;
+src: url(path/to/roboto.font);
+}
+

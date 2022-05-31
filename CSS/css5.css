@@ -1,0 +1,33 @@
+/*ul{
+	list-style-type: lower-alpha;
+}*/
+/*li{
+	border: 2px solid green;
+	background-image: url(lib.jpg);
+	background-repeat: no-repeat;
+	margin: 10px;
+	padding-left: 45px;
+	background-size: 40px;
+
+}*/
+a{
+	text-decoration: none;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	border: 2px solid yellow;
+	display: block;
+}
+p{
+	border: 1px solid;
+/*	max-width: 800px;
+	min-width: 100px;*/
+	width: 500px;
+	max-height: 500px;
+	min-height: 50px;
+	display: inline-block;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: darkslategrey;
+}
+
+.parent {
+    width: 600px;
+    height: 150px;
+    background-color: azure;
+    margin: 100px auto;
+    position: relative;
+}
+
+.divParent{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: static;
+}
+
+.div1 {
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    /* display: inline-block; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.div2 {
+    width: 100px;
+    height: 150px;
+    background-color: yellow;
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+
+.div3 {
+    margin-left: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    /* display: inline-block; */
+}

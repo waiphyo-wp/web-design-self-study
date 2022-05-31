@@ -1,0 +1,88 @@
+body {
+    background-color: #2E2E38;
+}
+
+.ad {   
+    margin-top: 50px;
+}
+
+.musicContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musicPlayerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.songs {
+    font-size: 20px;
+    color: greenyellow;
+    margin-top: 13px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.songs:hover {
+    color: wheat;
+}
+
+.spreadLine {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    opacity: 0.1;
+    
+}
+
+.audioControlContainer {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.currentAndTotal {
+    color: wheat;
+    font-size: 16px;
+    text-align: center;
+}
+
+#progressBar {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: 5px;
+    opacity: 0.4;
+}
+
+#increaseCurrentProgress {
+    width: 0px;
+    height: 100%;
+    background-color: red;
+}
+
+.audioRemote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: wheat;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+i {
+    margin: 0px 70px;
+}
+
+.pauseBtn {
+    display: none;
+}
+
+.playBtn {
+    display: inline;
+}
+

@@ -1,0 +1,52 @@
+/*
+li{
+	border: 3px solid red;
+	background-color: cyan;
+	width: 500px;
+	height: 50px;
+	margin: 10px auto;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+li:hover{
+	background-image: url(lib.jpg);
+}
+
+ul{
+	border: 1px solid blue;
+	width: 800px;
+	height: 400px;
+	background-image: url(lib.jpg);
+
+}
+
+a:visited{
+	color: green;
+}
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: black;
+}
+*/
+
+body{
+	height: 2000px;
+}
+
+.box1{
+	width: 150px;
+	height: 150px;
+	background-color: cyan;
+	position: absolute;
+	left: 100px;
+	text-align: center;
+	line-height: 150px;
+}
+
+

@@ -1,0 +1,25 @@
+body {
+    background-color: darkslategray;
+}
+
+.stopWatchNum {
+    text-align: center;
+    color: yellow;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.stopWatchBtn {
+    text-align: center;
+
+}
+
+.stopWatchMinliSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+

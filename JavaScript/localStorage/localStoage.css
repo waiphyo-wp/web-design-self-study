@@ -1,0 +1,47 @@
+body {
+    background-color: slategrey;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.localStoageContainer {
+    background-color: aquamarine
+
+}  
+
+textarea {
+    max-width: 321px;
+    max-height: 246px;
+    border: 1px solid wheat;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btnTag {
+    display: block;
+    text-align: center;
+}
+
+.commentTextContainer {
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    opacity: 0;
+}
+
+.showCommentTextContainerTag {
+    opacity: 1;
+}
